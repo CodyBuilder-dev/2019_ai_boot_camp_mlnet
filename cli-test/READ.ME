@@ -1,2 +1,4 @@
-mlnet auto-train --task binary-classification --dataset "yelp_labelled.txt" --label-column-name Sentiment
-mlnet auto-train --task binary-classification --dataset "naver_labelled.txt" --label-column-name Sentiment
+dotnet tool install -g mlnet
+
+mlnet auto-train --task binary-classification --dataset "../Data/yelp_labelled.txt" --label-column-name Sentiment
+mlnet auto-train --task binary-classification --dataset "../Data/naver_labelled.txt" --label-column-name Sentiment
