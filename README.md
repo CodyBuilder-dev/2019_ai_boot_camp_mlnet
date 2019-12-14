@@ -10,9 +10,9 @@ https://dotnet.microsoft.com/download/dotnet-core/3.1
 https://visualstudio.microsoft.com/vs/
 
 * ML.NET CLI<br>
-`dotnet tool install -g mlnet
-dotnet tool list -g
-mlnet`
+dotnet tool install -g mlnet<br>
+dotnet tool list -g<br>
+mlnet
 
 * Model Builder<br>
 https://marketplace.visualstudio.com/items?itemName=MLNET.07
